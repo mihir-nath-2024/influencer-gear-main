@@ -1,0 +1,107 @@
+.poppins {
+    font-family: "Poppins", sans-serif;}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 8.33% 0 8.33%;
+}
+.name-header{
+    color: rgb(58, 58, 58);
+/* font-family: Poppins; */
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 2.25rem;
+letter-spacing: 0px;
+text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-icons img{
+    margin: 1.25rem;
+    height: 120%;
+    width: 120%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+nav li{
+    margin: 20px;
+}
+
+/* Hero banner section */
+.banner-heading-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 132px 0 132px;
+    
+}
+.banner-heading-name{
+    max-width: 582px;
+    max-height: 270px;
+    background-color: aqua;
+}
+.hero h6{
+    font-size: 4.25rem;
+    text-align: left;
+    margin: 0%;
+    font-weight: bold;
+}
+.hero-description{
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 600;
+   
+}
+.btn-primary{
+    max-width: 325px;
+    max-height: 125px;
+    border-radius: 41px;
+   margin: auto;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    color: #FFFFFF ;
+}
+.btn-primary a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1rem;
+    
+
+}
+.banner-image{
+    background-image: url(./images/Circle\ design.svg);
+    max-width: 475px;
+    max-height: 475px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner-image img{
+    max-width: 440px;
+    max-height: 414px;
+}
