@@ -105,3 +105,17 @@ nav li{
     max-width: 440px;
     max-height: 414px;
 }
+.web-links{
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 4rem 10.31rem auto 10.31rem;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    max-width: 1110px;
+    max-height: 200px;
+    border: 1px solid #C0CCDA;
+    padding: 36px 62px;
+    /* grid-experiment */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
